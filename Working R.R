@@ -17,6 +17,16 @@ files_in_album <- list.files(music_dirs, full.names = TRUE)
 ################ Task 1 Step 3 Part 2
 
 WAV_counts <- str_count(files_in_album, ".wav")
-files_in_album [which(WAV_counts == 1)]
+x <- files_in_album [which(WAV_counts == 1)]
 
 ################ Task 1 Step 3 Part 2 Part A
+
+code_to_process = vector(mode = "character", length = 0)
+
+for (track in x) {
+  Track_Title <- paste('"', music_dirs, "/", x,'"')
+  code_to_process <- (Track_Title)
+}
+print(code_to_process)
+
+
