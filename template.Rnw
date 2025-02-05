@@ -27,10 +27,10 @@
 \title{Lab XX -- MATH 240 -- Computational Statistics}
 
 \author{
-  First Author \\
-  Affiliation  \\
-  Department  \\
-  {\tt email@domain}
+  Cristian Palmer \\
+  Student  \\
+  Mathematics  \\
+  {\tt cpalmer@domain}
 }
 
 \date{}

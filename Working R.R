@@ -67,5 +67,6 @@ JSON_Data = fromJSON(Json_file)
 average_loudness = JSON_Data$lowlevel$average_loudness
 spectral_energy = JSON_Data$lowlevel$spectral_energy$mean
 danceability = JSON_Data$rhythm$danceability
-bpm =JSON_Data$rhythm$bpm
-
+bpm = JSON_Data$rhythm$bpm
+key_scale = JSON_Data$tonal$key_scale
+length = JSON_Data$metadata$audio_properties$length
