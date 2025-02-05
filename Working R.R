@@ -54,3 +54,18 @@ code_to_process <- c(code_to_process, Final.output)
 writeLines(code_to_process, "batfile.txt")
 
 
+################ Task 2
+
+################ Step 1
+Json_file = "The Front Bottoms-Talon Of The Hawk-Au Revoir (Adios).json"
+split_Json_file = str_split(Json_file, "-", simplify = TRUE)
+
+################ Step 2
+JSON_Data = fromJSON(Json_file)
+
+################ Step 3
+average_loudness = JSON_Data$lowlevel$average_loudness
+spectral_energy = JSON_Data$lowlevel$spectral_energy$mean
+danceability = JSON_Data$rhythm$danceability
+bpm =JSON_Data$rhythm$bpm
+
